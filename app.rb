@@ -22,7 +22,7 @@ class App < Sinatra::Base
     @number_1 = params[:num1].to_i
     @number_2 = params[:num2].to_i
     @number_output = @number_1 * @number_2
-    "@number_output.to_s"
+    @number_output.to_s
   end
 
 
